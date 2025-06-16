@@ -1,0 +1,146 @@
+body { 
+  background-image: url(f1-ozadje.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  border-radius: 20px;
+  background-color: red;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace; 
+}
+
+p {
+  font-size: large;
+}
+
+section {
+  background-color: gray;
+  text-align: center;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: auto;
+  padding: 100px;
+  margin-top: 50px;
+  height: 60vh;
+  border-bottom: 1px solid #ccc;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+div {
+  border-style: solid;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: orange;
+}
+
+a:hover {
+  background-color: olive;
+  font-size: 22px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menu {
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #eee;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu li {
+  padding: 10px 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.kontakt-forma {
+  background-color: #fff3cd;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.kontakt-forma input,
+.kontakt-forma textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.kontakt-forma input:focus,
+.kontakt-forma textarea:focus {
+  border-color: orange;
+  background-color: #fff8e1;
+  outline: none;
+}
+
+.kontakt-forma button:active {
+  background-color: orange;
+  transform: scale(0.98);
+}
+
+.kontakt-forma button {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+button {
+  width: 80%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: large;
+  font-weight: bold;
+  background-color: #fff8e1;
+  border-radius: 25px;
+  color: orange;
+  border-color: rgba(204, 204, 204, 0);
+}
+button:hover{
+  background-color: olive;
+}
+
+.gallery {
+  display: flex;             
+  justify-content: center;    
+  align-items: center;        
+  gap: 10px; 
+  display: block; 
+  }
+
+.gallery img {
+  width: 40%
+}
