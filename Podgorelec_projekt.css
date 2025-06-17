@@ -145,5 +145,5 @@ button:hover{
   width: 40%
 }
 .gallery img:hover {
-  transform: scale(3);
+  max-width: 90%
 }
