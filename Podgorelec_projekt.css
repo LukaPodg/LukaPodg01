@@ -144,6 +144,3 @@ button:hover{
 .gallery img {
   width: 40%
 }
-section.gallery img:hover {
-  width: 100px
-}
