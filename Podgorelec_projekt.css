@@ -144,3 +144,6 @@ button:hover{
 .gallery img {
   width: 40%
 }
+.gallery img:hover {
+  transform: scale(3);
+}
